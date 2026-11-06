@@ -1,0 +1,4 @@
+# Keep scripts byte-for-byte identical on every OS so the SHA-256 values in the
+# READMEs and on kuntur.io keep matching (no CRLF conversion on checkout).
+*.ps1 -text
+*.sh -text
