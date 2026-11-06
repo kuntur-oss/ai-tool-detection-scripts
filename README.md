@@ -31,7 +31,7 @@ Each script is published with a step-by-step guide on kuntur.io. The files here 
 
 - **Read-only.** The platform scripts check whether known paths exist and count entries. They do not install, change or delete anything on the endpoint. The only writes are where the platform stores the result, and only where noted: the NinjaOne custom field, an optional Datto RMM UDF, and an optional JSON summary in the Intune script (off by default).
 - **No network.** No script sends data anywhere. The one exception to "no network at all" is `standalone/detect-local-llms`, which asks the Ollama API on `127.0.0.1` (loopback) for its version and model list.
-- **No secret values in output.** The platform scripts never print file contents; MCP configs are counted without reading their commands, URLs or environment variables. The API key check prints file, line and key type, never the key. The standalone MCP check prints server commands and URLs, so read the note in [`standalone/README.md`](standalone/README.md) before sharing its output.
+- **No secret values in output.** The platform scripts never print file contents; MCP configs are counted without reading their commands, URLs or environment variables. The API key check prints file, line and key type, never the key. The standalone MCP check prints server commands and URLs with secret-looking arguments and URL credentials and queries masked; read the note in [`standalone/README.md`](standalone/README.md) before sharing its output.
 - **Read before you run.** They are plain text and short. Check the SHA-256 against the guide before uploading a script to your console.
 
 ## Limits
