@@ -23,6 +23,7 @@ Each script is published with a step-by-step guide on kuntur.io. The files here 
 | [`kandji/`](kandji/) | Iru (formerly Kandji) | macOS | [guide](https://kuntur.io/guides/kandji-detect-ai-tools) |
 | [`mosyle/`](mosyle/) | Mosyle | macOS | [guide](https://kuntur.io/guides/mosyle-detect-ai-tools) |
 | [`addigy/`](addigy/) | Addigy | macOS | [guide](https://kuntur.io/guides/addigy-detect-ai-tools) |
+| [`jumpcloud/`](jumpcloud/) | JumpCloud Commands | macOS, Linux, Windows | [guide](https://kuntur.io/guides/jumpcloud-detect-ai-tools) |
 | [`standalone/`](standalone/) | Plain PowerShell and bash, one machine | Windows, macOS, Linux | see folder |
 
 `standalone/` has manual checks for AI API keys, MCP servers, Claude Code and local LLMs. For a single MCP config file there is also a browser-based auditor at https://kuntur.io/tools/mcp-config-auditor that runs entirely in the page.
